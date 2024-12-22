@@ -6,7 +6,7 @@ fun main() {
   val expectedOutput = readln()
   age = expectedOutput.toInt()
 
-  if (age >= 18) {
+  if (age in 25..100) {
     println("You are adult.")
   } else {
     println("You're just another kid.")
